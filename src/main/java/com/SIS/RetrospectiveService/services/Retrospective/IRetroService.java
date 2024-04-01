@@ -5,9 +5,6 @@ import com.SIS.RetrospectiveService.model.dto.RetroDTO;
 import com.SIS.RetrospectiveService.model.dto.RetroInputDTO;
 import com.SIS.RetrospectiveService.model.dto.RetroSearch;
 import com.SIS.RetrospectiveService.model.dto.RetroUpdateDTO;
-import org.springframework.data.domain.Page;
-
-import java.util.Date;
 import java.util.List;
 
 public interface IRetroService {

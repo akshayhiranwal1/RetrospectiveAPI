@@ -4,7 +4,6 @@ import com.SIS.RetrospectiveService.model.Feedback;
 import com.SIS.RetrospectiveService.model.dto.FeedCDTO;
 import com.SIS.RetrospectiveService.model.dto.FeedDTO;
 import com.SIS.RetrospectiveService.repository.FeedRepo;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Service

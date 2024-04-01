@@ -2,26 +2,14 @@ package com.SIS.RetrospectiveService;
 
 import com.SIS.RetrospectiveService.controller.RetrospectiveController;
 import com.SIS.RetrospectiveService.mapper.IRetroMapper;
-import com.SIS.RetrospectiveService.model.Feedback;
-import com.SIS.RetrospectiveService.model.Retrospective;
 import com.SIS.RetrospectiveService.services.Retrospective.IRetroService;
-import com.SIS.RetrospectiveService.services.Retrospective.RetroService;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit4.SpringRunner;
-import java.sql.Date;
-import java.time.LocalDate;
-import java.util.Arrays;
-import java.util.List;
 import java.util.stream.Collectors;
-
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThat;
 import static org.mockito.Mockito.*;
 
 @RunWith(SpringRunner.class)

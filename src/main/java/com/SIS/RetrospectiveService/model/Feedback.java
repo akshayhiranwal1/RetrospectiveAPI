@@ -3,7 +3,6 @@ package com.SIS.RetrospectiveService.model;
 import jakarta.persistence.*;
 import jakarta.transaction.Transactional;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Entity
 @Transactional

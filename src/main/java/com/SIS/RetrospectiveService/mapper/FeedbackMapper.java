@@ -1,12 +1,8 @@
 package com.SIS.RetrospectiveService.mapper;
 
 import com.SIS.RetrospectiveService.model.Feedback;
-import com.SIS.RetrospectiveService.model.Retrospective;
-import com.SIS.RetrospectiveService.model.dto.FeedCDTO;
 import com.SIS.RetrospectiveService.model.dto.FeedDTO;
-import com.SIS.RetrospectiveService.repository.FeedRepo;
 import com.SIS.RetrospectiveService.repository.RetroRepository;
-import lombok.Data;
 import org.springframework.stereotype.Component;
 
 @Component
